@@ -33,7 +33,7 @@ export const logout = () => {
     },
   });
 };
-export const email = "eve.holt@reqres.in";
-export const password =  "cityslicka";
+export const email = "sudhir.test@gmail.com";
+export const password =  "test@12345";
 
 export default { getToken, saveToken, destroyToken, logout,email,password };
