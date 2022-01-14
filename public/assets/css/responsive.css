@@ -1,0 +1,90 @@
+
+@media (min-width:1025px) and (max-width: 1366px) {
+    .navbar-collapse .search-bar {
+        min-width: 287px;
+    }
+    .header_main .navbar .navbar-brand {
+        padding-right: 0px;
+    }
+   
+}
+
+@media (max-width: 1200px) {
+    .head_inner .navbar-brand {
+        margin-right: 30px;
+    }
+    .warranty {
+        padding-left: 30px;
+    }
+    .nav-icons {
+        padding-left: 30px;
+    }
+    .head_inner .navbar-brand img {
+        width: 200px;
+    }
+   
+}
+
+@media (max-width: 991px) {
+    header.header_main {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        flex-wrap: wrap;
+    }
+    .head_inner {
+        flex-wrap: wrap;
+    }
+   
+}
+
+@media (max-width: 767px) {
+    .nav-icons {
+        padding-left: 0px;
+    }
+    .head_inner .navbar-brand {
+        margin-right: 10px;
+    }
+    .head_inner .navbar-brand img {
+        width: 170px;
+    }
+    .warranty {
+        padding-left: 0px;
+    }
+    .warranty img {
+        width: 30px;
+        margin-right: 10px!important;
+    }
+    .walllet-img span {
+        font-size: 13px;
+    }
+    .walllet-img {
+        max-width: 30px;
+        max-height: 30px;
+        line-height: 30px;
+    }
+    .nav-icons .wallet {
+        padding-left: 5px;
+    }
+    .header_main .navbar .navbar-brand {
+        padding-right: 0px;
+    }
+    
+}
+
+
+@media (max-width: 420px) {
+    .head_inner {
+        justify-content: center;
+    }
+    header.header_main {
+        padding-top: 5px;
+    }
+    .header_right {
+        width: 100%;
+    }
+    .nav-icons {
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+}
